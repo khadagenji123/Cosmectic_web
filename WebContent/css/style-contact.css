@@ -1,0 +1,113 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #EFF0F5;
+}
+
+.show{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 15px 10% 15px 10%;
+    background-color: #43B161;
+}
+.font-li{
+    font-size: 20px;
+    color: white;
+}
+
+#left-location{
+    float: left;
+    width: 20%;
+    height: 500px;
+    background-color: white;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+#right-location{
+    float: right;
+    width: 50%;
+    height: 500px;
+    background-color: white;
+    margin-right: 10%;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+.show1{
+    text-align: center;
+    color: red;
+}
+
+.contact-button{
+    font-size: 20px;
+}
+.button-mess{
+    height: 200px;
+    width: 500px;
+}
+.image{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 250px;
+}
+.show3{
+    list-style: none;
+}
+.distance-line{
+    line-height: 2.0;
+}
+a{
+	text-decoration: none;
+}
+
+.button-submit{
+    background-color: greenyellow;
+    margin-left: 50%;
+    font-size: 20px;
+}
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    border-radius: 50px;
+    text-align: center;  
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+

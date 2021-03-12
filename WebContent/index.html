@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/style-index.css" type="text/css">
+<script src="js/script-index.js"></script>
+<title>Trang Chủ</title>
+</head>
+<body>
+
+<div>
+    <ul id="header" class="show">
+        <li class="font-li">Hotline: 1900 636 510 - 0973 104 105
+        &nbsp;&nbsp; Email: rogerles@gmail.com</li>
+        <li><a href="view/login-form.jsp"><input class="button" type="button" value="Đăng nhập"></a>
+        &nbsp;&nbsp;
+        <a href="view/sign-up-form.jsp"><input class="button" type="button" value="Đăng kí"></a></li>
+    </ul>
+</div>
+
+<div>
+    <div id="left1">
+        <p class="item">RogerLes</p>
+    </div>
+    <div id="right1">
+        <input type="hidden" name="command" value="TimKiem">
+        <input type="text" name="product-name"
+                    placeholder ="Tìm kiếm trên RogerLes" size="60px" class="search">
+    </div>
+</div> 
+
+<div id="menu">
+	<a href="index.html"><input class="button1" type="button" value="TRANG CHỦ"></a>
+	<a href="view/best-selling.jsp"><input class="button1" type="button" value="BÁN CHẠY"></a>
+	<a href="view/new-product.jsp"><input class="button1" type="button" value="HÀNG MỚI VỀ"></a>
+	
+    <select class="button1" id="mySelect" onchange="category()">
+    	<option>DANH MỤC SẢN PHẨM</option>
+        <option value="skincare">Chăm sóc da</option>
+        <option value="makeup">Trang điểm</option>
+        <option value="bodycare">Chăm sóc cơ thể</option>
+        <option value="haircare">Chăm sóc tóc </option>
+        <option value="forman">Dành cho nam giới</option>
+    </select>
+    
+    <form>
+	   <select class="button1" id="theSelect" onchange="trademark()">
+	        <option>THƯƠNG HIỆU</option>
+	        <option value="nivea">Nivea</option>
+	        <option value="addidas">Addidas</option>
+	        <option value="neturgena">Neturgena</option>
+	    </select>
+    </form>
+    <a href="view/news.jsp"><input class="button1" type="button" value="TIN TỨC"></a> 
+    <a href="view/contact.jsp"><input class="button1" type="button" value="LIÊN HỆ"></a>
+</div>
+
+<div class="show1">
+    <a href="view/sign-up-form.jsp"><img id="image" src="image/quangcao1.jpg" alt="image"></a>
+</div>
+<br>
+
+<hr>
+
+
+<div id="footer">
+    
+</div>
+
+</body>
+</html>

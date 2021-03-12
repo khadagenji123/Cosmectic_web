@@ -1,0 +1,28 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #EFF0F5;
+}
+
+.show{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 15px 10% 15px 10%;
+    background-color: #43B161;
+}
+
+.header{
+    text-align: center;
+}
+#content{
+    margin-left: 10%;
+    margin-right: 30%;
+}
+.show1{
+    margin-left: 10%;
+}
+p{
+    line-height: 25px;
+}
